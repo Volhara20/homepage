@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f7fa;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-position: inside;
+}
+
+.wrapper {
+    background: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.30);
+}
+
+.sidebar {
+    background: #000;
+    width: 370px;
+    padding-bottom: 40px;
+}
+
+.my-photo {
+    width: 370px;
+}
+
+.contact-info__item {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+}
+
+.contact-info__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.contact-info__item-icon-wrapper {
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info__item-icon path {
+    fill: #ff6b08;
+}
+
+.contact-info__item-icon {
+    height: 1.1428rem;
+    vertical-align: text-bottom;
+}
+
+.contact-info__item:nth-child(n+4) {
+    text-decoration: underline;
+}
+
+.about-me-cont {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.contacts {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+.title-aside {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.items {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ff6b08;
+}
+
+.items-text {
+    color: #fff;
+}
+
+.profession {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.name {
+    font-size: 45px;
+    line-height: 89px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.info-container {
+    margin-bottom: 65px;
+}
+
+.about-me-title {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dots {
+    color: #d0d0d0;
+    font-weight: 100;
+}
+
+.project-item {
+    font-weight: 700;
+}
+
+.projects-link {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #595959;
+}
+
+.professional-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.professional-company {
+    color: #ff6b08;
+}
+
+.professional-time {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+}
+
+.professional-divider {
+    color: #000;
+}
+
+.professional-duties {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.education-container {
+    margin-top: 55px;
+}
+
+.cybersecurity {
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
